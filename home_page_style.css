@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 100;
+    font-family: "montserrat",sans-serif;
+  }
+  .wrapper { 
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .header{
+    height: 100px;
+    background: #ffffff;
+    padding: 0px;
+    float: center;
+    color: #000000;
+  }
+  
+  .menu{
+    
+    float: center;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 850px;
+    line-height: 100px;
+  }
+  .menu a{
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    transition: 0.4s;
+    float: center;
+    
+  }
+  .show-menu-btn,.hide-menu-btn{
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+  }
+  .show-menu-btn{
+    float: right;
+  }
+  .show-menu-btn i{
+    line-height: 100px;
+  }
+  .menu a:hover,
+  .show-menu-btn:hover,
+  .hide-menu-btn:hover{
+    color: #000000;
+  }
+  
+  #chk{s
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+  }
+  
+  .content{
+    padding: 0 20px;
+  }
+  .content img{
+    width: 100%;
+    max-width: 700px;
+    margin: 20px 0;
+  }
+  .content p{
+    text-align: justify;
+  }
+  
+  @media screen and (max-width:800px) {
+    .show-menu-btn,.hide-menu-btn{
+      display: block;
+    }
+    .menu{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #ffffff;
+      right: -100%;
+      top: 0;
+      text-align: center;
+      padding: 80px 0;
+      line-height: normal;
+      transition: 0.7s;
+    }
+    .menu a{
+      display: block;
+      padding: 20px;
+    }
+    .hide-menu-btn{
+      position: absolute;
+      top: 40px;
+      right: 40px;
+    }
+    #chk:checked ~ .menu{
+      right: 0;
+    }
+  }
+  
+    
+
+    
+    #page {
+        width: auto;
+        margin: auto;
+        padding: 40px 32px;
+    }
+    .heading-1 {
+        
+        background-position-x: center;
+        background-position-y: bottom;
+        background-size: initial;
+        background-repeat:no-repeat;
+        background-attachment: initial;
+        background-origin: initial;
+        background-clip: initial;
+        background-color: initial;
+        padding-top: 50px;
+        padding-bottom: 35px;
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    .heading-2 {
+        text-align: left;
+        padding-top: 15px;
+    }
+    .heading-3 {
+        text-align: left;
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+    .button {
+        padding-top: 10px;
+        padding-bottom: 35px;
+    }
+    .buttontext {
+        padding-top: 13px;
+        padding-bottom: 13px;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-family: 'adam.cg_proregular';
+        font-size: 18px;
+        border-width: 1px;
+        border: 1px solid;
+        text-align: center;
+    }
+    
+    .flex {
+        display: flex;
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+    .narrow {
+    
+        margin: auto;
+    }
+    
+    #rrlogo {
+      padding-left: 10px!important;
+  }
+ 
+    .fa {
+      margin-top: 3px;
+      margin-right: 5px;
+      padding: 12px;
+      font-size: 30px;
+      width: 48px;
+      text-align: center;
+      text-decoration: none;
+      border-radius: 50%;
+    }
+    .fa:hover {
+      opacity: 0.7;
+      color: lightcyan;
+    }
+    .fa-facebook {
+      background: white;
+      color: black;
+    }
+    .fa-instagram {
+        background: white;
+        color: black;
+        margin-right: 21px;
+    }
+    
+    
+    footer {
+        background-color: #ffffff;
+        columns: #000000;;
+    }
+    #info{
+        padding: 40px;
+    }
+    
+    
+    ul {
+        list-style: none!important;
+        padding-inline-start: 0px!important;
+    }
+    p.copyright {
+        text-align: center;
+        padding-top: 10px;
+    }
+    
+    
+    @media only screen and (max-width: 600px) {
+      div.carousel {
+        display: none;
+      }
+    }
+    
+    @media only screen and (max-width: 600px) {
+        #reg {
+            float:none;
+        }
+    }
